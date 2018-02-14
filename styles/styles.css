@@ -1,0 +1,49 @@
+.dacomp-is-the-best-da, .card{
+    background-color: #DCDCDC;
+}
+
+.pe-nes{
+    margin-top: 4.4rem;
+}
+
+.pncdd {    
+    background-image: url("./../assets/Capa_Anken_70%.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 2rem;
+}
+
+.sdds-anken{
+    padding: 5% 10%;
+}
+
+.galao{
+    margin-bottom: 2rem;
+    padding: 0 4rem;
+}
+
+.navbar{
+    background-color: black;
+}
+
+.pad-top{
+    padding-top: 1rem;
+}
+
+.members-card{
+    padding: 0;
+    margin: 0;
+    box-shadow: 10px 5px 5px #ABABAB;
+}
+
+.img-card{
+    height: 20rem;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.members p{
+    margin: 0 !important;
+}
+

@@ -1,0 +1,29 @@
+- Quem somos (membros)
+- X Eventos (que estão por vir)
+- X Eventos (que já foram concluídos)
+- Contato (links das redes sociais + email)
+- X Algum botão pra ir pra página dos certificados
+- X Sobre nós 
+- X Espaço pra vendas (foto do produto + link pra um form de encomenda)
+
+-------------------------------------------------------------------------
+
+ESTRUTURA DO SITE
+
+- Navbar fixo no topo
+
+- Carrossel com eventos acontecendo ou que estão por vir
+
+- Sobre nós (o que o DACOMP faz)
+
+- Link pros certificados
+
+- Carrossel com eventos que já aconteceram (POR O PARTICLES AQUI!)
+
+- Espaço para vendas (leva para uma página à parte de produtos)
+
+- Lista dos membros, com nome completo, cargo e curso de cada um
+
+PÁGINA DE PRODUTOS 
+
+- Fazer rs

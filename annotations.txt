@@ -1,10 +1,11 @@
-- Quem somos (membros)
+- X Quem somos (membros)
 - X Eventos (que estão por vir)
 - X Eventos (que já foram concluídos)
 - Contato (links das redes sociais + email)
 - X Algum botão pra ir pra página dos certificados
 - X Sobre nós 
 - X Espaço pra vendas (foto do produto + link pra um form de encomenda)
+- Página dos produtos à venda
 
 -------------------------------------------------------------------------
 
@@ -23,6 +24,10 @@ ESTRUTURA DO SITE
 - Espaço para vendas (leva para uma página à parte de produtos)
 
 - Lista dos membros, com nome completo, cargo e curso de cada um
+(o coitado que for cuidar do site que vai inserir todo mundo)
+
+- Contato
+
 
 PÁGINA DE PRODUTOS 
 

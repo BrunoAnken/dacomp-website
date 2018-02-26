@@ -4,8 +4,12 @@ body, html {
     margin: 0;
 }
 
-.dacomp-is-the-best-da, .card{
+.dacomp-is-the-best-da {
     background-color: #DCDCDC;
+}
+
+.card {
+    background-color: white;
 }
 
 .pe-nes{
@@ -128,4 +132,12 @@ hr {
 
 .end {
     display: inline-block;
+}
+
+.foot {
+    bottom: 0;
+}
+
+.media {
+    margin: 2rem 0;
 }

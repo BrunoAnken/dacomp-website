@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="./styles/styles.css">
 
+    <link rel="icon" href="./favicon.ico">
+
     <title>DACOMP</title>
 </head>
 
@@ -18,7 +20,7 @@
     <!-- navbar TOPERZEDSON -->
     <nav class="navbar fixed-top navbar-dark bg-dark navbar-expand-lg">
         <div class="container">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="./index.html">
                 <img src="./assets/logo_dacomp_vetor_branca_transparente.png" height="45" alt="">
                 <strong>DACOMP - Gestão Update</strong>
             </a>
@@ -28,8 +30,14 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Home</a>
+                        <a class="nav-link" href="./index.html">Home</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./members.html">Membros</a>
+                    </li>
+                    <li class="nav-item">
+                            <a class="nav-link" href="./products.html">Produtos</a>
+                        </li>
                 </ul>
             </div>
         </div>
@@ -163,48 +171,20 @@
         </div>
     </div>
 
-    <!-- membros deste time lindo -->
-    <div class="text-center sdds-anken">
-        <h2>Membros do <strong>melhor</strong> Diretório Acadêmico de toda a UTFPR:</h2>
-        <!-- br pula uma linha -->
-        <br>
+    <!-- link pra página dos membros -->
+    <div class="container text-center">
+        
+        <h2 class="sdds-anken">Conheça os membros deste time maravilhoso!</h2>
+        
+        <a href="./members.html">
+            <img src="https://scontent.fcpq2-1.fna.fbcdn.net/v/t1.0-9/17630135_1661794627170675_1693932002051911657_n.jpg?oh=533e855bcac379140e3bf344f9e1c675&oe=5B176020" alt="" style="margin-bottom: 5%">
+        </a>
 
-        <!-- copie a estrutura com a classe card-deck de ponta a ponta -->
-        <!-- como são 21 membros, isso deverá ser feito 7x -->
-        <!-- dentro de cada card-deck, colocar 3 cards -->
-        <div class="card-deck">
+        
 
-                <!-- o card começa aqui -->
-                <div class="card feitosa">
-                    <!-- mudar o src para o link da foto do membro -->
-                    <img class="card-img-top img-card" src="https://scontent.fcpq2-1.fna.fbcdn.net/v/t1.0-9/25551853_519134411794769_4108229447077421134_n.jpg?oh=f0d22abb43759fbdd2fe4026d73a21e3&oe=5B145138" alt="Card image cap">
-                    <div class="card-body">
-                        <!-- mudar as informações aqui-->
-                        <h5 class="card-title">Clarisse Medeiros</h5>
-                        <p class="card-text">Diretora Administrativa</p>
-                        <p class="card-text">Engenharia de Computação</p>
-                    </div>
-                </div>
-                <!-- e termina aqui -->
-                
-                <div class="card feitosa">
-                  <img class="card-img-top img-card" src="https://scontent.fcpq2-1.fna.fbcdn.net/v/t1.0-9/21432688_1176573435776579_1449502883455800280_n.jpg?oh=cb2c4c72d14961fd9f9d25827a11cb19&oe=5AFFD233" alt="Card image cap">
-                  <div class="card-body">
-                    <h5 class="card-title">Gabriel Carvalho do Espírito Santo</h5>
-                    <p class="card-text">Presida</p>
-                    <p class="card-text">Engenharia de Computação</p>
-                  </div>
-                </div>
-
-                <div class="card feitosa">
-                  <img class="card-img-top img-card" src="https://scontent.fcpq2-1.fna.fbcdn.net/v/t1.0-9/13521910_1209309572427183_4315285632691357616_n.jpg?oh=4ed9c5101095437d88494d5330e78238&oe=5B1B7AC5" alt="Card image cap">
-                  <div class="card-body">
-                    <h5 class="card-title">Bruno Anken Moromizato Zaninello</h5>
-                    <p class="card-text">O cara mais foda que a UTF já viu</p>
-                    <p class="card-text">Engenharia de Computação</p>
-                  </div>
-                </div>
-              </div>
+        <!-- <p class="sdds-anken">
+            <a href="http://dceutfpr.org.br/login/" class="btn btn-primary">Clique aqui!</a>
+        </p> -->
         
     </div>
 
@@ -246,14 +226,14 @@
                         
                     </div>
                     <br>
-                    <p>Email: dacomp@gmail.com</p>
+                    <p>dacomp@gmail.com</p>
                     <p>Apoio: <a href="http://www.unect.com.br"><img src="./assets/icons/logo_unect_jr_png.png" alt="" width="10%"> </a>       </>
                 </div>
 
                 <div class="col-6">
                     <br>
-                    <span class="copyright">© 2018 DACOMP. Todos os direitos reservados.</span>
-                    <img src="./assets/icons/icon.ico" alt="DACOMP" class="" width="35%">
+                    <img src="./assets/icons/icon.ico" alt="DACOMP" class="text-center" width="30%">
+                    <p class="copyright">© 2018 DACOMP. Todos os direitos reservados.</p>
                 </div>
 
             </div>

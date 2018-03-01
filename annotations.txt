@@ -19,7 +19,7 @@ ESTRUTURA DO SITE
 
 - Link pros certificados
 
-- Carrossel com eventos que já aconteceram (POR O PARTICLES AQUI!)
+- Carrossel com eventos que já aconteceram (POR O PARTICLES AQUI!)- imagens devem ter 791x301
 
 - Link para a página de produtos
 

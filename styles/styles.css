@@ -187,27 +187,129 @@ canvas {
     max-width: 791px;
 }
 
-.secomp {
-    height: 100vh;
+/**/
+
+.toggle-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 550px;
+    margin: auto;
+}
+
+.topic-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-persona {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+}
+
+.img-persona img {
+    position: absolute;
+    position: absolute;
+    width: 119px;
+}
+
+.topic-info-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.btn-link {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-link img {
+    width: 100%;
+}
+
+.btn-link span {
+    color: #010530;
+    font-size: 0.9em;
+}
+
+.btn-link:hover {
+    text-decoration: none;
 }
 
 .secomp-content {
-    height: 100%;
-    text-align: center;
+    min-height: 100vh;
 }
 
-.secomp-content>img {
-    width: 100%;
+.icon-selected {
+    border-bottom: solid 1px #000320;
+}
+
+.wrap-info {
+    max-width: 100px;
+    width: 25%;
+}
+
+.size-default {
+    width: 300px;
+}
+
+.main-img {
     max-width: 500px;
+    width: 100%;
 }
 
-.text-secomp>p {
-    max-width: 650px;
-    text-align: center;
-    margin: auto;
-    margin-top: 75px;
-    margin-bottom: 30px;
+#accordion {
+    margin-top: 20px;
 }
+
+.cronograma {
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.cronograma h1{
+    text-align: center;
+}
+
+.cronograma img {
+    width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .main-img {
+        margin-left: 50%;
+        transform: translate(-50%);
+    }
+}
+
+/* .secomp {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .secomp-content {
+        height: 100%;
+        text-align: center;
+    }
+
+    .secomp-content>img {
+        width: 100%;
+        max-width: 500px;
+    }
+
+    .text-secomp>p {
+        max-width: 650px;
+        text-align: center;
+        margin: auto;
+        margin-top: 75px;
+        margin-bottom: 30px;
+        font-size: 18px;
+    } */
